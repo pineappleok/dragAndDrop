@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Title</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <div id="demo1">
+    <ul class="panel-list">
+      <li class="panel-item"></li>
+      <li class="panel-item"></li>
+      <li class="panel-item"></li>
+      <li class="panel-item"></li>
+      <li class="panel-item"></li>
+    </ul>
+    <h2>拖拽下面的方块到上面任意容器中</h2>
+  
+    <!-- 设置draggable使元素成为可拖拽元素 -->
+    <span class="movable" id="demo1-src" draggable="true"></span>
+  
+  <!-- <div id="demo2" draggable="true" ondragstart="event.dataTransfer.setData('text/plain')"> -->
+  <div id="demo2" >
+    This text may be dragged.
+  </div>
+  </div>
+  <script src="js/drag.js"></script>
+</body>
+</html>
